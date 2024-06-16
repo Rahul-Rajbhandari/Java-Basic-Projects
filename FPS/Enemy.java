@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.io.File;
-import java.util.Random;
+// import java.util.Random;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -15,7 +15,7 @@ public class Enemy extends JPanel {
         try {
             image = ImageIO.read(new File("./philosophers_stone_0.png"));
         } catch (Exception e) {
-            // TODO: handle exception
+
         }
     }
 
@@ -23,8 +23,6 @@ public class Enemy extends JPanel {
         super.paintComponent(g);
         g.setColor(Color.CYAN);
         g.fillRect(x, y, 100, 100);
-        // g.drawImage(image, x, y, 100, 100, this);
-
     }
 
     public void update() {
