@@ -29,7 +29,6 @@ public class Enemy extends JPanel{
             // g.setColor(Color.CYAN);
             // g.fillRect(x, y, 100, 100);
         }
-
     }
 
     public void update() {
